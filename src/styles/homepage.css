@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myprofile-my-country-btn-ncountry{
+    max-height: 90px;
+    min-height: 90px;
+    @apply 
+    sm:w-fit py-5
+    md:w-3/5
+    lg:w-2/5
+    2xl:w-2/6
+    text-center font-sans text-purple-900 font-bold
+    bg-purple-300
+    hover:bg-purple-400 duration-200
+}
